@@ -66,7 +66,7 @@ const Home = () => {
 
             <div class="toast-container position-fixed" style={{ left: '20px', bottom:'20px' }}>
                 <div class="toast" role="alert" style={{ display: displayRepeatProduct }} aria-live="assertive" aria-atomic="true">
-                    <div class="toast-header">
+                    <div class="toast-header bg-warning text-dark">
                         <i class="fa-solid fa-repeat"></i>
                         <strong class="me-auto mx-2">Producto Repetido!</strong>
                         <small>Tienda Online</small>
@@ -78,7 +78,7 @@ const Home = () => {
                 </div>
 
                 <div class="toast" role="alert" style={{ display: displaySuccess }} aria-live="assertive" aria-atomic="true">
-                    <div class="toast-header">
+                    <div class="toast-header bg-success text-light">
                         <i class="fa-solid fa-cart-shopping"></i>
                         <strong class="me-auto mx-2">Éxito</strong>
                         <small>Tienda Online</small>
