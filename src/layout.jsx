@@ -8,6 +8,7 @@ import Cart from './pages/cart';
 import Refund from './pages/refund';
 import useFetch from './components/fetchCustomHook';
 import About from './pages/about';
+import Contact from './pages/contact';
 
 const App = () => {
     const { globalState, updateDataFromAPI, updateListProductsHome } = useGlobalContext();
@@ -42,6 +43,7 @@ const App = () => {
                 <Route exact path="/cart" element={<Cart />} />
                 <Route exact path="/refund" element={<Refund />} />
                 <Route exact path="/about" element={<About />} />
+                <Route exact path="/contact" element={<Contact />} />
                 <Route exact path="*" element={<Home />} />
             </Routes>
             <Footer />

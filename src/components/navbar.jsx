@@ -59,7 +59,10 @@ const Navbar = () => {
                             <Link class="nav-link" to={"/refund"}><i class="fas fa-undo-alt"></i> Devoluciones</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link" to={"/about"}><i class="fa-solid fa-address-card"></i> Acerca de Nosotros</Link>
+                            <Link class="nav-link" to={"/contact"}><i class="fa-solid fa-address-card"></i> Contacto</Link>
+                        </li>
+                        <li class="nav-item">
+                            <Link class="nav-link" to={"/about"}><i class="fa-solid fa-info"></i> Acerca del proyecto</Link>
                         </li>
                     </ul>
                     <form onSubmit={applyFilter} className="d-flex" role="search">

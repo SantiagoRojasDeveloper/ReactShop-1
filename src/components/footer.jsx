@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="container p-4 pb-0">
                 <section className="mb-4">
                     <a
-                        href="#!"
+                        href=""
                         className="btn text-white btn-floating m-1"
                         style={{ backgroundColor: '#3b5998' }}
                         role="button"
@@ -15,7 +15,7 @@ const Footer = () => {
                     </a>
 
                     <a
-                        href="#!"
+                        href=""
                         className="btn text-white btn-floating m-1"
                         style={{ backgroundColor: '#55acee' }}
                         role="button"
@@ -24,7 +24,7 @@ const Footer = () => {
                     </a>
 
                     <a
-                        href="#!"
+                        href=""
                         className="btn text-white btn-floating m-1"
                         style={{ backgroundColor: '#dd4b39' }}
                         role="button"
@@ -33,7 +33,7 @@ const Footer = () => {
                     </a>
 
                     <a
-                        href="#!"
+                        href=""
                         className="btn text-white btn-floating m-1"
                         style={{ backgroundColor: '#ac2bac' }}
                         role="button"
@@ -42,7 +42,7 @@ const Footer = () => {
                     </a>
 
                     <a
-                        href="#!"
+                        href=""
                         className="btn text-white btn-floating m-1"
                         style={{ backgroundColor: '#0082ca' }}
                         role="button"
@@ -51,7 +51,7 @@ const Footer = () => {
                     </a>
 
                     <a
-                        href="#!"
+                        href=""
                         className="btn text-white btn-floating m-1"
                         style={{ backgroundColor: '#333333' }}
                         role="button"
